@@ -1,0 +1,550 @@
+/* Switching to a more modern, elegant font */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Instrument Sans', sans-serif;
+  color: #666;
+  line-height: 1.6;
+  text-align: left;
+  background-color: #fff; /* This will be overridden by JS */
+  background-image: url('/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: multiply; /* Blend background color with image */
+  font-size: 16px;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+
+.min-h-screen {
+  min-height: 100vh;
+  width: 100%;
+}
+
+a {
+  color: #8B5CF6;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Updated highlight styling to better match reference */
+.highlight {
+  color: #7C3AED;
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.highlight::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background-color: #7C3AED;
+}
+
+/* Navigation links styling */
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.nav-links a {
+  color: #666;
+  text-decoration: none;
+  font-size: 1rem;
+  position: relative;
+  padding: 0.5rem 0;
+}
+
+.nav-links a:hover {
+  color: #7C3AED;
+}
+
+.nav-links a::before {
+  content: "• ";
+  color: #666;
+}
+
+/* Enhanced navigation links with transition effects */
+.nav-links-enhanced a::before {
+  content: "";  /* Override the bullet */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #7C3AED;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease;
+}
+
+.nav-links-enhanced a {
+  position: relative;
+  color: #7C3AED;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  padding: 0.5rem 0.8rem;
+  margin: 0 0.2rem;
+  border-radius: 0.3rem;
+}
+
+.nav-links-enhanced a:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.nav-links-enhanced a:hover {
+  background-color: rgba(124, 58, 237, 0.1);
+  transform: translateY(-2px);
+}
+
+.nav-links-enhanced a:active {
+  transform: translateY(0);
+}
+
+/* Make age counter smaller */
+.age-counter.text-sm {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.section {
+  margin: 3rem 0;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .section {
+    margin: 2rem 0;
+  }
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111;
+}
+
+h2, h3 {
+  font-weight: 500;
+  color: #333;
+  text-align: left;
+}
+
+p {
+  color: #666;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .text-2xl {
+    font-size: 1.25rem;
+  }
+  
+  .text-xl {
+    font-size: 1.1rem;
+  }
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+@media (max-width: 768px) {
+  .mb-12 {
+    margin-bottom: 2rem;
+  }
+  
+  .mb-6 {
+    margin-bottom: 1rem;
+  }
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.space-y-6 > * + * {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .space-y-6 > * + * {
+    margin-top: 1rem;
+  }
+}
+
+.space-x-4 > * + * {
+  margin-left: 1rem;
+}
+
+.space-x-2 > * + * {
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .flex-wrap.space-x-2 > * {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .gap-4 {
+    gap: 0.75rem;
+  }
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.w-6, .h-6 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.w-50, .h-50 {
+  width: 12.5rem;
+  height: 12.5rem;
+}
+
+@media (max-width: 768px) {
+  .w-50, .h-50 {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+.w-full, .h-full {
+  width: 100%;
+  height: 100%;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.object-scale-down {
+  object-fit: scale-down;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+/* Profile image effects */
+.profile-image-container {
+  transform: rotate(180deg);
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.profile-image-container:hover {
+  transform: rotate(0deg);
+}
+
+/* For mobile - add touch support */
+@media (max-width: 768px) {
+  .profile-image-container.flipped {
+    transform: rotate(0deg);
+  }
+}
+
+.h-48 {
+  height: 12rem;
+}
+
+@media (max-width: 768px) {
+  .h-48 {
+    height: 10rem;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .p-4 {
+    padding: 0.75rem;
+  }
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (max-width: 768px) {
+  .py-16 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+.text-gray-600 {
+  color: #666;
+}
+
+.bg-blue-100 {
+  background-color: #dbeafe;
+}
+
+.text-blue-800 {
+  color: #1e40af;
+}
+
+.bg-orange-100 {
+  background-color: #ffedd5;
+}
+
+.text-orange-800 {
+  color: #9a3412;
+}
+
+.bg-yellow-100 {
+  background-color: #fef9c3;
+}
+
+.text-yellow-800 {
+  color: #854d0e;
+}
+
+.bg-green-100 {
+  background-color: #dcfce7;
+}
+
+.text-green-800 {
+  color: #166534;
+}
+
+.bg-purple-100 {
+  background-color: #f3e8ff;
+}
+
+.text-purple-800 {
+  color: #7C3AED;
+}
+
+/* Primary color for hover effects */
+.hover\:text-primary:hover {
+  color: #7C3AED;
+}
+
+.text-primary {
+  color: #7C3AED;
+}
+
+/* Tag container styling */
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  justify-content: flex-start;
+}
+
+/* Date styling for blog entries */
+.date {
+  color: #666;
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+}
+
+/* Age counter styling */
+.age-counter {
+  font-family: monospace;
+  font-size: 1.1rem;
+  color: #7C3AED;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+/* Visitor counter styling */
+.visitor-counter {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* Project title with GitHub logo */
+.project-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.github-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: #333;
+}
+
+@media (min-width: 640px) {
+  .sm\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
