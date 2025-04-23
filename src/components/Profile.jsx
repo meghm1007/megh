@@ -187,8 +187,8 @@ const Profile = () => {
             products</span> and <span className="text-blue-600 font-medium">AI Agents</span> that make people's lives easier.
           </p>
           <p className="text-gray-600 mt-3">
-            i believe in <span className="text-blue-600 font-medium">simple, thoughtful design</span> and writing <span className="text-blue-600 font-medium">clean,
-            efficient code</span>.
+            i believe in simple, thoughtful design and writing clean,
+            efficient code.
           </p>
           <p className="text-gray-600 mt-3">
             with this i aim to create products that people actually use and make

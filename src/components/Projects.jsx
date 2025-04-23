@@ -39,44 +39,49 @@ const Projects = () => {
         <div className="p-4 border-l-2 border-gray-700">
           <div className="flex items-center mb-3">
             <h3 className="text-xl font-bold">abate fleet</h3>
-            <div className="ml-2 flex items-center self-center" style={{ marginLeft: '0.5rem' }}>
+            <div
+              className="ml-2 flex items-center self-center"
+              style={{ marginLeft: "0.5rem" }}
+            >
               <a
                 href="https://abatefleet.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-800 flex items-center"
                 title="Visit website"
-                style={{ marginRight: '8px' }}
+                style={{ marginRight: "8px" }}
               >
                 <FaExternalLinkAlt className="text-xl" />
               </a>
             </div>
           </div>
           <p className="text-gray-600">
-            worked at a 2 person startup building an entire{" "}
-            <span className="text-blue-600 font-medium">
-              fleet management system
-            </span>{" "}
-            and developing an{" "}
+            worked at a{" "}
+            <span className="text-blue-600 font-medium">2 person startup</span>{" "}
+            building an entire fleet management system and developing an{" "}
             <span className="text-blue-600 font-medium">algorithm</span> that
             lets truck company owners detect{" "}
             <span className="text-blue-600 font-medium">fuel theft</span> made
-            by their truck drivers. caught significant fuel theft (over $5k) at
-            a company
+            by their truck drivers. caught significant fuel theft{" "}
+            <span className="text-blue-600 font-medium">(over $5k)</span> at a
+            company
           </p>
         </div>
 
         <div className="p-4 border-l-2 border-gray-700">
           <div className="flex items-center mb-3 flex-wrap">
             <h3 className="text-xl font-bold">mnm studios</h3>
-            <div className="ml-2 flex items-center self-center" style={{ marginLeft: '0.5rem' }}>
+            <div
+              className="ml-2 flex items-center self-center"
+              style={{ marginLeft: "0.5rem" }}
+            >
               <a
                 href="https://www.instagram.com/mnm__studios/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-800 flex items-center"
                 title="Instagram profile"
-                style={{ marginRight: '8px' }}
+                style={{ marginRight: "8px" }}
               >
                 <FaInstagram className="text-xl" />
               </a>
@@ -86,7 +91,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-800 flex items-center"
                 title="itch.io page"
-                style={{ marginRight: '8px' }}
+                style={{ marginRight: "8px" }}
               >
                 <SiItchdotio className="text-xl" />
               </a>
@@ -95,10 +100,14 @@ const Projects = () => {
           <p className="text-gray-600">
             started building{" "}
             <span className="text-blue-600 font-medium">video games</span> when
-            i was 15 years old. i spent hours each day after school making these
-            video games. managed to grew an instagram account to{" "}
+            i was{" "}
+            <span className="text-blue-600 font-medium">15 years old</span>. i
+            spent hours each day after school making these video games. managed
+            to grew an instagram account to{" "}
             <span className="text-blue-600 font-medium">1.5k followers</span>,
-            published 3+ mobile games (took them off now) and even a 20 level{" "}
+            published{" "}
+            <span className="text-blue-600 font-medium">3+ mobile games</span>{" "}
+            (took them off now) and even a 20 level{" "}
             <span className="text-blue-600 font-medium">3d fpp maze game</span>{" "}
             on itch.io
           </p>
@@ -107,14 +116,17 @@ const Projects = () => {
         <div className="p-4 border-l-2 border-gray-700">
           <div className="flex items-center mb-3">
             <h3 className="text-xl font-bold">resume roast</h3>
-            <div className="ml-2 flex items-center self-center" style={{ marginLeft: '0.5rem' }}>
+            <div
+              className="ml-2 flex items-center self-center"
+              style={{ marginLeft: "0.5rem" }}
+            >
               <a
                 href="https://github.com/meghm1007/resumeroast"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-800 flex items-center"
                 title="GitHub repository"
-                style={{ marginRight: '8px' }}
+                style={{ marginRight: "8px" }}
               >
                 <FaGithub className="text-xl" />
               </a>
@@ -133,14 +145,17 @@ const Projects = () => {
         <div className="p-4 border-l-2 border-gray-700">
           <div className="flex items-center mb-3">
             <h3 className="text-xl font-bold">moontrip ai</h3>
-            <div className="ml-2 flex items-center self-center" style={{ marginLeft: '0.5rem' }}>
+            <div
+              className="ml-2 flex items-center self-center"
+              style={{ marginLeft: "0.5rem" }}
+            >
               <a
                 href="https://moontripai.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-800 flex items-center"
                 title="Visit website"
-                style={{ marginRight: '8px' }}
+                style={{ marginRight: "8px" }}
               >
                 <FaExternalLinkAlt className="text-xl" />
               </a>
@@ -158,14 +173,17 @@ const Projects = () => {
         <div className="p-4 border-l-2 border-gray-700">
           <div className="flex items-center mb-3">
             <h3 className="text-xl font-bold">promptify</h3>
-            <div className="ml-2 flex items-center self-center" style={{ marginLeft: '0.5rem' }}>
+            <div
+              className="ml-2 flex items-center self-center"
+              style={{ marginLeft: "0.5rem" }}
+            >
               <a
                 href="https://chromewebstore.google.com/detail/promptify-prompt-manager/cddmfedodmdgbnphdnemofcbmfemcfpe"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-800 flex items-center"
                 title="Chrome Web Store"
-                style={{ marginRight: '8px' }}
+                style={{ marginRight: "8px" }}
               >
                 <FaChrome className="text-xl" />
               </a>
