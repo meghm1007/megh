@@ -8,21 +8,21 @@ const Interests = () => {
     <div id="interests" className="section">
       <h2 className="text-2xl mb-4">things i'm passionate about</h2>
 
-      <div className="space-y-6">
-        <div className="p-4">
-          <p>
-            there's something magical about building systems from scratch and
-            watching them come to life. i'm a passionate creator, i love to
+      <div className="space-y-4">
+        <div className="p-4 border-l-2 border-gray-700">
+          <p className="text-gray-600">
+            there's something magical about building <span className="text-blue-600 font-medium">systems from scratch</span> and
+            watching them come to life. i'm a passionate <span className="text-blue-600 font-medium">creator</span>, i love to
             build anything and everything that could simplify life and make me
             lazier.
-            <br />
-            <br />
-            i'm also a varsity squash athlete, and I spend a lot of time
+          </p>
+          <p className="text-gray-600 mt-3">
+            i'm also a varsity <span className="text-blue-600 font-medium">squash athlete</span>, and I spend a lot of time
             playing, training and getting better at the sport. i also love
-            playing chess, but i'm really bad (1200 elo).
-            <br />
-            <br />
-            currently, i've even got into vibe coding video games using rosebud ai (takes me 15 mins to create a game). here's a demo
+            playing <span className="text-blue-600 font-medium">chess</span>, but i'm really bad (1200 elo).
+          </p>
+          <p className="text-gray-600 mt-3">
+            currently, i've even got into <span className="text-blue-600 font-medium">vibe coding</span> video games using rosebud ai (takes me 15 mins to create a game). here's a demo
           </p>
           
           <div className="mt-4 bg-gray-900 rounded-lg overflow-hidden" style={{ maxWidth: "800px", height: "500px", margin: "0 auto" }}>
