@@ -197,7 +197,7 @@ const Profile = () => {
 
           <p className="text-gray-600 mt-3">
             when i'm not coding, you can find me playing squash or chess or vibe
-            code video games with Rosebud AI.
+            to music or play video games with Rosebud AI.
           </p>
         </div>
       </div>
