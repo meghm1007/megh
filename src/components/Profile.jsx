@@ -111,7 +111,7 @@ const Profile = () => {
 
         <div className="flex justify-center space-x-4 mb-6">
           <a
-            href="https://github.com"
+            href="https://github.com/meghm1007"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -120,7 +120,7 @@ const Profile = () => {
             <FaGithub size={24} />
           </a>
           <a
-            href="https://x.com"
+            href="https://x.com/itsthemeg"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="X"
@@ -129,7 +129,7 @@ const Profile = () => {
             <SiX size={24} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/meghm/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -138,7 +138,7 @@ const Profile = () => {
             <FaLinkedin size={24} />
           </a>
           <a
-            href="https://farcaster.xyz"
+            href="https://warpcast.com/itsthemeg"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Farcaster"
@@ -147,7 +147,7 @@ const Profile = () => {
             <SiFarcaster size={24} />
           </a>
           <a 
-            href="mailto:example@example.com" 
+            href="mailto:mehtamegh@gmail.com" 
             aria-label="Email"
             className="text-gray-600 hover:text-primary"
           >

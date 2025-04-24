@@ -6,17 +6,18 @@ const Contact = () => {
       <h2 className="text-2xl mb-4">get in touch</h2>
       <div className="p-4 border-l-2 border-gray-700">
         <p className="text-gray-600">
-          feel free to reach out if you want to <span className="text-blue-600 font-medium">collaborate</span> on a project, have
-          questions about my work, or just want to say hello.
+          feel free to reach out if you want to{" "}
+          <span className="text-blue-600 font-medium">collaborate</span> on a
+          project, have questions about my work, or just want to say hello.
         </p>
         <p className="text-gray-600 mt-3">
           the best way to contact me is via{" "}
           <a href="mailto:mehtamegh@gmail.com" className="highlight">
-            email (mehtamegh@gmail dot com)
+            email (mehtamegh@gmail.com)
           </a>{" "}
           or{" "}
           <a
-            href="https://x.com/itsthemegh"
+            href="https://x.com/itsthemeg"
             target="_blank"
             rel="noopener noreferrer"
             className="highlight"
@@ -25,7 +26,7 @@ const Contact = () => {
           </a>{" "}
           or on{" "}
           <a
-            href="https://www.linkedin.com/in/mehtamegh/"
+            href="https://www.linkedin.com/in/meghm/"
             target="_blank"
             rel="noopener noreferrer"
             className="highlight"
@@ -35,7 +36,12 @@ const Contact = () => {
           .
         </p>
         <p className="text-gray-600 mt-3">
-          i'm always open to <span className="text-blue-600 font-medium">interesting conversations</span> and new <span className="text-blue-600 font-medium">opportunities</span>!
+          i'm always open to{" "}
+          <span className="text-blue-600 font-medium">
+            interesting conversations
+          </span>{" "}
+          and new{" "}
+          <span className="text-blue-600 font-medium">opportunities</span>!
         </p>
         <p className="text-gray-600 mt-3">
           i will reply to every single message :-)
