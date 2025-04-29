@@ -163,22 +163,24 @@ const Profile = () => {
           you are the 507th visitor, welcome!
         </div> */}
 
-        <div className="nav-links nav-links-enhanced">
-          <a href="#current-work" className="nav-link">
-            current
-          </a>
-          <a href="#projects" className="nav-link">
-            projects
-          </a>
-          <a href="#interests" className="nav-link">
-            interests
-          </a>
-          <a href="#course-work" className="nav-link">
-            course work
-          </a>
-          <a href="#contact" className="nav-link">
-            contact
-          </a>
+        <div className="w-full px-2 overflow-hidden">
+          <div className="nav-links nav-links-enhanced">
+            <a href="#current-work" className="nav-link">
+              current
+            </a>
+            <a href="#projects" className="nav-link">
+              projects
+            </a>
+            <a href="#interests" className="nav-link">
+              interests
+            </a>
+            <a href="#course-work" className="nav-link">
+              course work
+            </a>
+            <a href="#contact" className="nav-link">
+              contact
+            </a>
+          </div>
         </div>
 
         <div className="p-4 mt-6">
