@@ -35,6 +35,23 @@ const CurrentWork = () => {
             side projects within the company that add immense value in the
             gaming industry.
           </p>
+          
+          <div className="mt-4">
+            <p className="text-gray-600 mb-2">key projects i've built:</p>
+            <ul className="space-y-2 ml-4">
+              <li className="text-gray-600">
+                <span className="text-blue-600 font-medium">rosewhop</span> - convert rosebud games into whop apps
+              </li>
+              <li className="text-gray-600">
+                <span className="text-blue-600 font-medium">x game bot</span> - when tagged on any post, automatically creates a game based on that context
+              </li>
+              <li className="text-gray-600">
+                <span className="text-blue-600 font-medium">cross-platform conversion</span> - transforming vibe-coded rosebud ai games into farcaster mini apps and steam apps
+              </li>
+            </ul>
+          </div>
+          <p className="text-gray-600 mt-0 hidden">
+          </p>
         </div>
 
         <div className="p-4 border-l-2 border-gray-700">
@@ -50,8 +67,8 @@ const CurrentWork = () => {
             the product include:
           </p>
           <p className="text-gray-600 mt-3">
-            <span 
-              className="text-blue-600 font-medium" 
+            <span
+              className="text-blue-600 font-medium"
               style={{ fontFamily: "monospace", fontStyle: "italic" }}
             >
               ai memes, meme templates, trend analysis, viral meme ad campaigns,

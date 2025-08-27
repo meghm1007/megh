@@ -38,6 +38,37 @@ const Projects = () => {
       <div className="space-y-4">
         <div className="p-4 border-l-2 border-gray-700">
           <div className="flex items-center mb-3">
+            <h3 className="text-xl font-bold">llm txt</h3>
+            <div
+              className="ml-2 flex items-center self-center"
+              style={{ marginLeft: "0.5rem" }}
+            >
+              <a
+                href="https://www.llmtxt.pro/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-gray-800 flex items-center"
+                title="Visit website"
+                style={{ marginRight: "8px" }}
+              >
+                <FaExternalLinkAlt className="text-xl" />
+              </a>
+            </div>
+          </div>
+          <p className="text-gray-600">
+            create{" "}
+            <span className="text-blue-600 font-medium">MCP servers</span> from
+            your documentation. give cursor IDE's AI instant access to your
+            company's{" "}
+            <span className="text-blue-600 font-medium">APIs, tools, and knowledge base</span>.
+            transform documentation into{" "}
+            <span className="text-blue-600 font-medium">AI-powered tools</span>{" "}
+            with native cursor IDE integration.
+          </p>
+        </div>
+
+        <div className="p-4 border-l-2 border-gray-700">
+          <div className="flex items-center mb-3">
             <h3 className="text-xl font-bold">abate fleet</h3>
             <div
               className="ml-2 flex items-center self-center"
@@ -139,34 +170,6 @@ const Projects = () => {
             <span className="text-blue-600 font-medium">10 mins</span>. i even
             added a feature that lets you host your resume on the site and
             others can roast it.
-          </p>
-        </div>
-
-        <div className="p-4 border-l-2 border-gray-700">
-          <div className="flex items-center mb-3">
-            <h3 className="text-xl font-bold">moontrip ai</h3>
-            <div
-              className="ml-2 flex items-center self-center"
-              style={{ marginLeft: "0.5rem" }}
-            >
-              <a
-                href="https://moontripai.app"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-gray-800 flex items-center"
-                title="Visit website"
-                style={{ marginRight: "8px" }}
-              >
-                <FaExternalLinkAlt className="text-xl" />
-              </a>
-            </div>
-          </div>
-          <p className="text-gray-600">
-            an{" "}
-            <span className="text-blue-600 font-medium">ai trip planner</span>{" "}
-            that lets you plan your next trip in{" "}
-            <span className="text-blue-600 font-medium">30 seconds</span>. get
-            hotel suggestions, daily plans etc.
           </p>
         </div>
 

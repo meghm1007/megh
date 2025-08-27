@@ -2,7 +2,6 @@ import React from "react";
 
 const Interests = () => {
   // These would be replaced with actual imported images
-  const photos = [""];
 
   return (
     <div id="interests" className="section">
