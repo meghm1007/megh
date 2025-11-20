@@ -6,6 +6,7 @@ import Interests from "./components/Interests";
 import Writings from "./components/Writings";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import ResumeButton from "./components/ResumeButton";
 
 const App = () => {
   return (
@@ -25,6 +26,9 @@ const App = () => {
 
         <Footer />
       </div>
+      
+      {/* Floating resume download button */}
+      <ResumeButton />
     </div>
   );
 };

@@ -38,6 +38,52 @@ const Projects = () => {
       <div className="space-y-4">
         <div className="p-4 border-l-2 border-gray-700">
           <div className="flex items-center mb-3">
+            <h3 className="text-xl font-bold">rosebud ai</h3>
+            <div
+              className="ml-2 flex items-center self-center"
+              style={{ marginLeft: "0.5rem" }}
+            >
+              <a
+                href="https://www.rosebud.ai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-gray-800 flex items-center"
+                title="Visit website"
+                style={{ marginRight: "8px" }}
+              >
+                <FaExternalLinkAlt className="text-xl" />
+              </a>
+            </div>
+          </div>
+          <p className="text-gray-600">
+            worked as an{" "}
+            <span className="text-blue-600 font-medium">intern</span> at{" "}
+            <span className="text-blue-600 font-medium">rosebud ai</span>,
+            engineering the ai to make the best{" "}
+            <span className="text-blue-600 font-medium">video games</span>{" "}
+            possible. i'm even working on creating{" "}
+            <span className="text-blue-600 font-medium">MCPs</span> and other
+            side projects within the company that add immense value in the
+            gaming industry.
+          </p>
+          <div className="mt-4">
+            <p className="text-gray-600 mb-2">key projects i've built:</p>
+            <ul className="space-y-2 ml-4">
+              <li className="text-gray-600">
+                <span className="text-blue-600 font-medium">rosewhop</span> - convert rosebud games into whop apps
+              </li>
+              <li className="text-gray-600">
+                <span className="text-blue-600 font-medium">x game bot</span> - when tagged on any post, automatically creates a game based on that context
+              </li>
+              <li className="text-gray-600">
+                <span className="text-blue-600 font-medium">cross-platform conversion</span> - transforming vibe-coded rosebud ai games into farcaster mini apps and steam apps
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="p-4 border-l-2 border-gray-700">
+          <div className="flex items-center mb-3">
             <h3 className="text-xl font-bold">llm txt</h3>
             <div
               className="ml-2 flex items-center self-center"

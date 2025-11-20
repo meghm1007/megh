@@ -14,43 +14,49 @@ const CurrentWork = () => {
 
       <div className="space-y-4">
         <div className="p-4 border-l-2 border-gray-700">
-          <h3 className="text-xl font-bold mb-3">rosebud ai</h3>
+          <h3 className="text-xl font-bold mb-3">clover labs</h3>
           <p className="text-gray-600">
-            working as an{" "}
-            <span className="text-blue-600 font-medium">intern</span> at{" "}
+            starting{" "}
+            <span className="text-blue-600 font-medium">winter 2026</span>, i'll
+            be working at{" "}
             <a
-              href="https://www.rosebud.ai"
+              href="https://cloverlabs.ai/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center"
             >
-              <span className="highlight">rosebud ai.</span>
-
+              <span className="highlight">clover labs</span>
               <FaExternalLinkAlt className="h-2 w-2 ml-1 inline ml-2" />
             </a>
-            , engineering the ai to make the best{" "}
-            <span className="text-blue-600 font-medium">video games</span>{" "}
-            possible. i'm even working on creating{" "}
-            <span className="text-blue-600 font-medium">MCPs</span> and other
-            side projects within the company that add immense value in the
-            gaming industry.
+            , building{" "}
+            <span className="text-blue-600 font-medium">ai agents</span> that
+            solve distribution. their portfolio includes autonomous growth
+            engines like{" "}
+            <span className="text-blue-600 font-medium">1Price</span> - a
+            dynamic pricing agent that drives revenue on autopilot.
           </p>
-          
-          <div className="mt-4">
-            <p className="text-gray-600 mb-2">key projects i've built:</p>
-            <ul className="space-y-2 ml-4">
-              <li className="text-gray-600">
-                <span className="text-blue-600 font-medium">rosewhop</span> - convert rosebud games into whop apps
-              </li>
-              <li className="text-gray-600">
-                <span className="text-blue-600 font-medium">x game bot</span> - when tagged on any post, automatically creates a game based on that context
-              </li>
-              <li className="text-gray-600">
-                <span className="text-blue-600 font-medium">cross-platform conversion</span> - transforming vibe-coded rosebud ai games into farcaster mini apps and steam apps
-              </li>
-            </ul>
-          </div>
-          <p className="text-gray-600 mt-0 hidden">
+        </div>
+
+        <div className="p-4 border-l-2 border-gray-700">
+          <h3 className="text-xl font-bold mb-3">crypto calls tracker</h3>
+          <p className="text-gray-600">
+            built a{" "}
+            <a
+              href="https://crypto-calls-saas.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center"
+            >
+              <span className="highlight">crypto trading saas</span>
+              <FaExternalLinkAlt className="h-2 w-2 ml-1 inline ml-2" />
+            </a>{" "}
+            that tracks the{" "}
+            <span className="text-blue-600 font-medium">
+              best communities making crypto predictions
+            </span>
+            . helps traders identify top-performing crypto communities and their
+            prediction accuracy in the{" "}
+            <span className="text-blue-600 font-medium">trading space</span>.
           </p>
         </div>
 
@@ -75,9 +81,6 @@ const CurrentWork = () => {
               short form content, song memes, roast competitos, simpson memes
               and so so so so much more more more more.
             </span>
-          </p>
-          <p className="text-gray-600 mt-3">
-            i'm even making such content at rosebud ai
           </p>
         </div>
       </div>

@@ -655,3 +655,190 @@ p {
 .gap-1 {
   gap: 0.25rem;
 }
+
+/* Resume Button - Liquid Glass Design */
+.resume-button-container {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Close button styling - positioned on the right */
+.resume-close-btn {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  
+  /* Ultra-translucent liquid glass */
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  box-shadow: 
+    0 4px 24px rgba(0, 0, 0, 0.08),
+    inset 0 0.5px 1px rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  
+  color: #2c2c2c;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 0.9rem;
+  order: 2; /* Position X button to the right */
+}
+
+.resume-close-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+  transform: scale(1.05);
+  box-shadow: 
+    0 6px 30px rgba(0, 0, 0, 0.12),
+    inset 0 0.5px 1px rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.resume-close-btn:active {
+  transform: scale(0.95);
+}
+
+/* Main download button with liquid glass effect */
+.resume-download-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 1.4rem;
+  border-radius: 50px;
+  order: 1; /* Position download button to the left */
+  
+  /* Ultra-translucent liquid glass effect */
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  
+  /* Subtle shadow with top highlight */
+  box-shadow: 
+    0 4px 24px rgba(0, 0, 0, 0.08),
+    inset 0 0.5px 1px rgba(255, 255, 255, 0.8);
+  
+  /* Clean border */
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  
+  color: #2c2c2c;
+  font-weight: 500;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hover effect - slightly more visible */
+.resume-download-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 
+    0 6px 30px rgba(0, 0, 0, 0.12),
+    inset 0 0.5px 1px rgba(255, 255, 255, 0.9);
+  transform: translateY(-2px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+/* Active/Click effect */
+.resume-download-btn:active {
+  transform: translateY(0);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 
+    0 2px 12px rgba(0, 0, 0, 0.08),
+    inset 0 0.5px 1px rgba(255, 255, 255, 0.7);
+}
+
+/* Liquid ripple effect on click */
+.resume-download-btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    transparent 100%
+  );
+  transform: translate(-50%, -50%);
+  transition: width 0.6s ease-out, height 0.6s ease-out, opacity 0.6s ease-out;
+  opacity: 0;
+}
+
+.resume-download-btn:active::before {
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+}
+
+/* Icon styling - no animation */
+.download-icon {
+  font-size: 1rem;
+  transition: transform 0.3s ease;
+}
+
+/* Text styling */
+.download-text {
+  font-family: 'Instrument Sans', sans-serif;
+  white-space: nowrap;
+}
+
+/* Mobile responsive design */
+@media (max-width: 768px) {
+  .resume-button-container {
+    bottom: 1rem;
+    right: 1rem;
+    gap: 0.4rem;
+  }
+  
+  .resume-close-btn {
+    width: 1.75rem;
+    height: 1.75rem;
+    font-size: 0.8rem;
+    order: 2; /* Keep X on the right on mobile too */
+  }
+  
+  .resume-download-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.85rem;
+    gap: 0.4rem;
+    order: 1; /* Keep download button on the left on mobile */
+  }
+  
+  .download-icon {
+    font-size: 0.9rem;
+  }
+  
+  /* Slightly reduce text on very small screens */
+  @media (max-width: 380px) {
+    .download-text {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+/* Smooth entrance animation */
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(150px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.resume-button-container {
+  animation: slideInFromRight 0.5s ease-out;
+}

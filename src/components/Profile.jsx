@@ -201,6 +201,11 @@ const Profile = () => {
             when i'm not coding, you can find me playing squash or chess or vibe
             to music or play video games with Rosebud AI.
           </p>
+          <p className="text-blue-600 mt-3">
+            Currently exploring more projects either in the <span className="text-blue-600 font-medium">Blockchain space</span> or automating growth for companies - i know completely distinct but i'm interested in both :D
+            <br/><br/>
+            <span className="text-blue-600 font-medium">If you have any ideas, feel free to reach out!</span>
+          </p>
         </div>
       </div>
     </div>
