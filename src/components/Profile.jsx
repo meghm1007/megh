@@ -185,26 +185,24 @@ const Profile = () => {
 
         <div className="p-4 mt-6">
           <p className="text-gray-600">
-            currently based in hamilton, ON🍁, i spend my days building <span className="text-blue-600 font-medium">SaaS
-            products</span> and <span className="text-blue-600 font-medium">AI Agents</span> that make people's lives easier.
+            currently based in hamilton, ON🍁, i'm a 3rd year <span className="text-blue-600 font-medium">Computer Science</span> student at McMaster University building <span className="text-blue-600 font-medium">SaaS products</span> and <span className="text-blue-600 font-medium">AI tools</span> that people actually use.
+          </p>
+          <p className="text-gray-600 mt-3">
+            i've worked at <span className="text-blue-600 font-medium">RosebudAI</span> (YC-backed) making viral tools, <span className="text-blue-600 font-medium">BirlaSoft</span> building GenAI apps for drug discovery, and <span className="text-blue-600 font-medium">Abate Fleet</span> - a 2-person startup fighting fuel theft in trucking.
           </p>
           <p className="text-gray-600 mt-3">
             i believe in simple, thoughtful design and writing clean,
             efficient code.
           </p>
           <p className="text-gray-600 mt-3">
-            with this i aim to create products that people actually use and make
-            me money.
+            shipped <span className="text-blue-600 font-medium">3+ SaaS products</span> across different niches and currently diving deep into <span className="text-blue-600 font-medium">Web3 and Blockchain</span>.
           </p>
 
           <p className="text-gray-600 mt-3">
-            when i'm not coding, you can find me playing squash or chess or vibe
-            to music or play video games with Rosebud AI.
+            when i'm not coding, you'll find me playing squash (i play on the McMaster varsity team).
           </p>
           <p className="text-blue-600 mt-3">
-            Currently exploring more projects either in the <span className="text-blue-600 font-medium">Blockchain space</span> or automating growth for companies - i know completely distinct but i'm interested in both :D
-            <br/><br/>
-            <span className="text-blue-600 font-medium">If you have any ideas, feel free to reach out!</span>
+            if you have an interesting idea or opportunity, let's connect and build something together 🤝
           </p>
         </div>
       </div>
