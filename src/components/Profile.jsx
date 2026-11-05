@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 // Adding required icons
-import { SiX, SiFarcaster } from "react-icons/si";
+import { SiX } from "react-icons/si";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
@@ -137,15 +137,6 @@ const Profile = () => {
           >
             <FaLinkedin size={24} />
           </a>
-          <a
-            href="https://warpcast.com/itsthemeg"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Farcaster"
-            className="text-gray-600 hover:text-primary"
-          >
-            <SiFarcaster size={24} />
-          </a>
           <a 
             href="mailto:mehtamegh@gmail.com" 
             aria-label="Email"
@@ -185,10 +176,13 @@ const Profile = () => {
 
         <div className="p-4 mt-6">
           <p className="text-gray-600">
-            currently based in hamilton, ON🍁, i'm a 3rd year <span className="text-blue-600 font-medium">Computer Science</span> student at McMaster University building <span className="text-blue-600 font-medium">SaaS products</span> and <span className="text-blue-600 font-medium">AI tools</span> that people actually use.
+            currently based in hamilton, ON🍁, i'm a <span className="text-blue-600 font-medium">Computer Science</span> student (minor in Statistics) at McMaster University building <span className="text-blue-600 font-medium">SaaS products</span> and <span className="text-blue-600 font-medium">AI tools</span> that people actually use.
           </p>
           <p className="text-gray-600 mt-3">
-            i've worked at <span className="text-blue-600 font-medium">RosebudAI</span> (YC-backed) making viral tools, <span className="text-blue-600 font-medium">BirlaSoft</span> building GenAI apps for drug discovery, and <span className="text-blue-600 font-medium">Abate Fleet</span> - a 2-person startup fighting fuel theft in trucking.
+            right now i'm at <span className="text-blue-600 font-medium">Peeker AI</span>, building self-healing inboxes that keep cold email campaigns sending.
+          </p>
+          <p className="text-gray-600 mt-3">
+            before that, i worked at <span className="text-blue-600 font-medium">Clover Labs</span> shipping AI content automation that drives millions of organic views a month,<span className="text-blue-600 font-medium">RosebudAI</span> (YC-backed) making viral tools, <span className="text-blue-600 font-medium">BirlaSoft</span> building GenAI apps for drug discovery, and <span className="text-blue-600 font-medium">Abate Fleet</span> - a 2-person startup fighting fuel theft in trucking.
           </p>
           <p className="text-gray-600 mt-3">
             i believe in simple, thoughtful design and writing clean,

@@ -14,49 +14,27 @@ const CurrentWork = () => {
 
       <div className="space-y-4">
         <div className="p-4 border-l-2 border-gray-700">
-          <h3 className="text-xl font-bold mb-3">clover labs</h3>
+          <h3 className="text-xl font-bold mb-3">peeker ai</h3>
           <p className="text-gray-600">
-            starting{" "}
-            <span className="text-blue-600 font-medium">winter 2026</span>, i'll
-            be working at{" "}
+            currently working at{" "}
             <a
-              href="https://cloverlabs.ai/"
+              href="https://peeker.ai/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center"
             >
-              <span className="highlight">clover labs</span>
+              <span className="highlight">peeker ai</span>
               <FaExternalLinkAlt className="h-2 w-2 ml-1 inline ml-2" />
             </a>
             , building{" "}
-            <span className="text-blue-600 font-medium">ai agents</span> that
-            solve distribution. their portfolio includes autonomous growth
-            engines like{" "}
-            <span className="text-blue-600 font-medium">1Price</span> - a
-            dynamic pricing agent that drives revenue on autopilot.
-          </p>
-        </div>
-
-        <div className="p-4 border-l-2 border-gray-700">
-          <h3 className="text-xl font-bold mb-3">crypto calls tracker</h3>
-          <p className="text-gray-600">
-            built a{" "}
-            <a
-              href="https://crypto-calls-saas.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center"
-            >
-              <span className="highlight">crypto trading saas</span>
-              <FaExternalLinkAlt className="h-2 w-2 ml-1 inline ml-2" />
-            </a>{" "}
-            that tracks the{" "}
             <span className="text-blue-600 font-medium">
-              best communities making crypto predictions
-            </span>
-            . helps traders identify top-performing crypto communities and their
-            prediction accuracy in the{" "}
-            <span className="text-blue-600 font-medium">trading space</span>.
+              self-healing inboxes
+            </span>{" "}
+            for cold email. peeker spins up inboxes, monitors{" "}
+            <span className="text-blue-600 font-medium">deliverability</span>{" "}
+            in real time, detects burned inboxes 24/7 and{" "}
+            <span className="text-blue-600 font-medium">auto-swaps</span> them
+            so outbound campaigns never stop sending.
           </p>
         </div>
 

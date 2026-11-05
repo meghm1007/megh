@@ -25,9 +25,9 @@ const ResumeButton = () => {
     // Create a temporary anchor element
     const link = document.createElement("a");
     // Set the path to the resume file in the public folder
-    link.href = "/Megh_Resume_Aug2025.pdf";
+    link.href = "/Megh_Mehta_Jun_26.pdf";
     // Set the filename for the download
-    link.download = "Megh_Resume_Aug2025.pdf";
+    link.download = "Megh_Mehta_Jun_26.pdf";
     // Append to body, click, and remove (required for Firefox)
     document.body.appendChild(link);
     link.click();
